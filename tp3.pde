@@ -106,7 +106,7 @@ void calcularMovimiento() {
 void calcularQueEstaSaltando() {
   if (keyPressed && keyCode == UP && !personaje1) {
     personaje1 = true;
-    personaje_estaSaltandoDireccion = 1; //Esta llendo hacia arriba
+    personaje_estaSaltandoDireccion = 1; 
   } else if (
     personaje1 && 
     personaje_estaSaltandoDireccion == 1 &&
